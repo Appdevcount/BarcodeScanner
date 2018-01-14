@@ -35,7 +35,7 @@ namespace FormsSample
             };
 
             buttonScanDefaultOverlay.Clicked += async delegate {
-                scanPage = new ZXingScannerPage(options) {
+                scanPage = new ZXingScannerPage(options) { 
                     DefaultOverlayTopText = "Align the barcode within the frame",
                     DefaultOverlayBottomText = "Scan the Barcode",
                     DefaultOverlayShowFlashButton = true
